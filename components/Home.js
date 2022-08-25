@@ -13,9 +13,9 @@ const HomePage=() =>
       <div className="d-flex justify-content-around align-items-center home-all-cont" style={{height:"100%",width:"100%",paddingLeft:"100px",paddingRight:"100px"}}>
             <div className="d-flex flex-column align-items-start home-cont" style={{color:"#00f100",width:"40%"}}>
               <div className="term-bar d-flex justify-content-start"style={{columnGap:"2px"}}>
-                  <div class="fakeButtons" style={{background:"red"}}></div>
-                  <div class="fakeButtons" style={{background:"yellow"}}></div>
-                  <div class="fakeButtons" style={{background:"green"}}></div>
+                  <div className="fakeButtons" style={{background:"red"}}></div>
+                  <div className="fakeButtons" style={{background:"yellow"}}></div>
+                  <div className="fakeButtons" style={{background:"green"}}></div>
                  
               </div>
               <div className="d-flex home-details flex-column" style={{padding:"20px"}}>

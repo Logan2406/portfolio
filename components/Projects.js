@@ -7,9 +7,9 @@ const Project =({item}) =>
         <>
         <div className="d-flex flex-column align-items-start skill-cont" style={{color:"#00f100",width:"40%",padding:'10px'}}>
         <div className="term-bar d-flex justify-content-start" style={{columnGap:"2px"}}>
-            <div class="fakeButtons" style={{background:"red"}}></div>
-            <div class="fakeButtons" style={{background:"yellow"}}></div>
-            <div class="fakeButtons" style={{background:"green"}}></div>
+            <div className="fakeButtons" style={{background:"red"}}></div>
+            <div className="fakeButtons" style={{background:"yellow"}}></div>
+            <div className="fakeButtons" style={{background:"green"}}></div>
         </div>
         <div className="d-flex project-skill-det flex-column align-items-center" style={{padding:"20px"}}>
           <h3 style={{textAlign:"center"}}>{item.title}</h3>
@@ -18,7 +18,7 @@ const Project =({item}) =>
             <br/>
             <h5>Technologies Used</h5>
             <ul style={{display:'flex',columnGap:"20px",flexWrap:"wrap"}}>
-                            {item.technoligies.map((item,index)=>{return(<li style={{marginRight:"10px",fontFamily:"'Ubuntu Mono', monospace"}}>{item}</li>)})}
+                            {item.technoligies.map((item,index)=>{return(<li key={index} style={{marginRight:"10px",fontFamily:"'Ubuntu Mono', monospace"}}>{item}</li>)})}
             </ul>
           </div>
           
@@ -69,7 +69,7 @@ const Projects = () =>
          <Container className="projects-container skill-container d-flex justify-content-center flex-wrap" style={{marginBottom:"100px",columnGap:"40px",rowGap:"40px"}}>
             {projects.map((ele,index)=>
             {
-                return(<Project item={ele}/>)
+                return(<Project key={index} item={ele}/>)
             })}
         </Container>
         </>

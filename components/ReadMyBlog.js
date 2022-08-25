@@ -15,13 +15,13 @@ const ReadMyBlog =() =>
                     <h1 className="readme-heading" style={{textAlign:"center",fontFamily:"'VT323', monospace"}}>How to Reach me !</h1>
                     <div className="reach-links" style={{display:"flex",flexDirection:'column',marginTop:"30px"}}>
                         <p style={{fontFamily:"'Ubuntu Mono', monospace"}}>
-                            <BsLinkedin/> LinkedIn Profile : <a href="https://www.linkedin.com/in/jyoti-pravo-pal-952550243/" target="_blank">Jyoti Pravo Pal</a>
+                            <BsLinkedin/> LinkedIn Profile : <a href="https://www.linkedin.com/in/jyoti-pravo-pal-952550243/" target="_blank" rel="noreferrer">Jyoti Pravo Pal</a>
                         </p>
                         <p style={{fontFamily:"'Ubuntu Mono', monospace"}}>
                             <SiGmail/> Mail me at : <a href="mailto: jyotipravopal@gmail.com">jyotipravopal@gmail.com</a>
                         </p>
                         <p style={{fontFamily:"'Ubuntu Mono', monospace"}}>
-                            <BsGithub/> GitHub Profile : <a href="https://github.com/Logan2406"  target="_blank">Logan2406</a>
+                            <BsGithub/> GitHub Profile : <a href="https://github.com/Logan2406"  target="_blank" rel="noreferrer">Logan2406</a>
                         </p>
                     </div>
                 </div>

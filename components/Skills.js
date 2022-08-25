@@ -2,7 +2,6 @@ import { Container,Tabs,Tab } from "react-bootstrap"
 import LanguageSkills from "./LanguageSkills";
 import FrameworkSkill from "./FrameworkSkill";
 import ToolsSkill from "./ToolsSkill";
-import DemoTimer from "./DemoTimer";
 
 const Skills=()=>
 {

@@ -51,7 +51,7 @@ const Experience = () =>
                         {ele.desc}
                         </p>
                         <ul style={{display:'flex',columnGap:"20px",flexWrap:"wrap"}}>
-                            {ele.skils.map((item,index)=>{return(<li style={{marginRight:"10px",fontFamily:"'Ubuntu Mono', monospace"}}>{item}</li>)})}
+                            {ele.skils.map((item,index)=>{return(<li key={index} style={{marginRight:"10px",fontFamily:"'Ubuntu Mono', monospace"}}>{item}</li>)})}
                         </ul>
                     </VerticalTimelineElement>)}
             </VerticalTimeline>

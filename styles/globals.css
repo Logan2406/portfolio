@@ -44,7 +44,10 @@ a {
   box-sizing: border-box;
 }
 
-
+.modal-open
+{
+  padding-right:0px !important;
+}
 
 /*-----------------NavBar----------------------------*/
 
@@ -265,7 +268,10 @@ a {
   {
     min-width:calc(90vmax);
     align-items: center;
+    margin-bottom: calc(10vmax) !important;
+   
   }
+
 
   .home-details h3
   {
@@ -280,6 +286,11 @@ a {
 .home-details p
 {
  font-size: calc(3rem);
+}
+
+.progress
+{
+  height:calc(2.5rem) !important;
 }
 }
 
@@ -454,6 +465,20 @@ a {
   color: #00f100 !important;
 }
 
+.vertical-timeline-element--education li
+{
+  font-size: calc(1.2rem);
+}
+
+.progress-bar
+{
+  font-size: calc(1.3rem);
+}
+.progress
+{
+  height:calc(1.5rem) !important;
+}
+
 @media screen and (max-width:800px) {
   .vertical-timeline-element--education
   {
@@ -464,6 +489,21 @@ a {
   {
     font-size: calc(0.5rem);
   }
+
+  .vertical-timeline-element--education li
+{
+  font-size: calc(2rem);
+}
+
+.progress-bar
+{
+  font-size: calc(2rem);
+}
+
+.progress
+{
+  height:calc(2rem) !important;
+}
 }
 
 
@@ -709,6 +749,11 @@ a {
     font-size: calc(3rem);
     padding-right:2rem;
   }
+
+  .vertical-timeline-element--education li
+{
+  font-size: calc(2rem);
+}
 }
 
 

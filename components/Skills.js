@@ -9,7 +9,9 @@ const Skills=()=>
         <>
         <a name="skills"></a>
         <Container className="skill-container" style={{marginBottom:"100px"}}>
-         <h1 style={{textAlign:"center",marginBottom:"100px",color:"#00f100",fontFamily:"VT323",fontSize:"80px"}}>Skills</h1>
+         <hr style={{marginLeft:"auto",marginRight:"auto",height:"0.1rem",color:"white",width:"70%"}}/>
+         <h1 style={{textAlign:"center",marginBottom:"",color:"#00f100",fontFamily:"VT323",fontSize:"80px"}}>Skills</h1>
+         <hr style={{marginLeft:"auto",marginRight:"auto",height:"0.1rem",color:"white",width:"70%"}}/>
             <Tabs defaultActiveKey="lang" id="uncontrolled-tab-example" className="mb-3">
                 <Tab eventKey="lang" title="Languages">
                    <LanguageSkills/>

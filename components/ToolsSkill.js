@@ -6,25 +6,25 @@ const ToolsSkill = () =>
         {
             name:"Postman",
             img:"postman-icon.png",
-            prof:"80%",
+            prof:80,
             date:"2018 - present"
         },
         {
             name:"Eclipse",
             img:"eclipse-icon.png",
-            prof:"80%",
+            prof:80,
             date:"2018 - present"
         }, 
         {
             name:"VS Code",
             img:"vs_code.jpg",
-            prof:"80%",
+            prof:80,
             date:"2018 - present"
         }, 
         {
             name:"Tableua",
             img:"tableau.png",
-            prof:"80%",
+            prof:80,
             date:"2018 - present"
         },
     ]

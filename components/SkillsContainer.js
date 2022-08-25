@@ -1,3 +1,7 @@
+import Progress from 'react-bootstrap/ProgressBar';
+import { Row,Col } from 'react-bootstrap';
+
+
 const SkillsContainer = (props) =>
 {
     return(
@@ -7,16 +11,18 @@ const SkillsContainer = (props) =>
             <div className="fakeButtons" style={{background:"yellow"}}></div>
             <div className="fakeButtons" style={{background:"green"}}></div>
         </div>
-        <div className="d-flex skill-det flex-column align-items-center" style={{padding:"20px"}}>
+        <div className="d-flex skill-det flex-column align-items-center" style={{padding:"20px",marginLeft:"auto",marginRight:"auto"}}>
           <h3 style={{}}>{props.element.name}</h3>
           <div className="skill-img-div d-flex justify-content-center">
             <img className="skill-image" src={props.element.img} style={{width:"100%",borderRadius:"20px"}}/>
           </div>
-          <p style={{marginTop:"10px"}}>
-          Proficency : {props.element.prof}
-          </p>
+          
+           
+          <Progress style={{width:"80%",margin:"1.5rem",height:"1.5rem"}}striped variant="success" now={props.element.prof} label={`${props.element.prof}%`} active="true"/>
+           
+      
           <p style={{textAlign:'center'}}>
-          Experiance : {props.element.date}
+            {props.element.date}
           </p>
           
         </div>

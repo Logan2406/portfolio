@@ -8,6 +8,7 @@ const ReadMyBlog =() =>
     return(
         <>
             <Container className="d-flex justify-content-between read-me" style={{flexWrap:'wrap',columnGap:"20%"}}>
+            <hr style={{marginLeft:"auto",marginRight:"auto",height:"0.1rem",color:"white",width:"70%"}}/>chrome
                 <img src="./read-blog.png" style={{height:"600px",flex:1}}/>
                 <div className="d-flex flex-column" style={{color:"#00f100",flex:1,alignSelf:'center'}}>
                     

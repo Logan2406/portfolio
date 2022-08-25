@@ -5,31 +5,31 @@ const LanguageSkills = () =>
         {
             name:"Java",
             img:"java-icon.png",
-            prof:"90%",
+            prof:90,
             date:"2017 - present"
         },
         {
             name:"JavaScript",
             img:"javascript-icon.png",
-            prof:"80%",
+            prof:80,
             date:"2020 - present"
         },
         {
             name:"HTML",
             img:"html-icon.png",
-            prof:"90%",
+            prof:90,
             date:"2019 - present"
         },
         {
             name:"CSS",
             img:"css-icon.png",
-            prof:"60%",
+            prof:60,
             date:"2020 - present"
         },
         {
             name:"SQL",
             img:"sql-icon.png",
-            prof:"80%",
+            prof:80,
             date:"2018 - present"
         },
     ]

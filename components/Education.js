@@ -46,9 +46,10 @@ const Education = () =>
 
     return(
         <>
-        <a name="education"></a>
-             <h1 style={{textAlign:"center",marginTop:"100px",marginBottom:"100px",color:"#00f100",fontFamily:"VT323",fontSize:"80px"}}>Education Details</h1>
-             
+        <a name="experience"></a>
+            <hr style={{marginLeft:"auto",marginRight:"auto",height:"0.1rem",color:"white",width:"70%"}}/>
+             <h1 style={{textAlign:"center",marginTop:"",marginBottom:"",color:"#00f100",fontFamily:"VT323",fontSize:"80px"}}>Education Details</h1>
+             <hr style={{marginLeft:"auto",marginRight:"auto",height:"0.1rem",color:"white",width:"70%"}}/>
              <VerticalTimeline>
                     {elements.map((ele,i)=>
                     <VerticalTimelineElement

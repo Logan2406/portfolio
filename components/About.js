@@ -14,10 +14,10 @@ const About =() =>
                
                 <div className="about-container" style={{flex:2}}>
                     <p>
-                    I am a Software Engineer from India currently working at Tata Consultancy Services(TCS), having a experience of 1.5 years. Here I have gained the experience in the technologies such as HTML, CSS, Javascript, React Js, Tableau, SQL, Python. Majorly I have worked in the Web technologies. From the previos Internship I received a training of Java Full Stack Developer and had to create a project on that technology from there on I got a keen interest in Web Development and App Development.
+                    I am a Software Engineer from India currently working at Tata Consultancy Services(TCS), having a experience of 1.5 years. Here I have achieved the experience in the technologies such as HTML, CSS, Javascript, React Js, Tableau, SQL, Python. Majorly I have worked in the Web technologies. At the time of my Internship I received a training of Java Full Stack Developer and also had to work on a project from there on I got a keen interest in Web Development and App Development.
                     </p>
                     <p>
-                    Whenever I learn any technology I use to create a self project regarding the technology, for that you can visit my github profile and go thriugh the repositories. I have created some projects in React Js, React Native, Express Js. I continuously enhance my skills and always try remain up to date. I regularly update and aquire knowledge of new frameworks. I love to explore the technologies around Javascript. 
+                    Whenever I learn any technology I always create a self-project regarding the technology, for that you can visit my github profile and go thriugh the repositories. I have created some projects in React Js, React Native, Express Js. I continuously enhance my skills and always try remain up to date. I regularly update and aquire knowledge of new frameworks. I love to explore the technologies around Javascript. 
                     </p>
                     <p>
                         Here are a few technologies that I am currently working on 

@@ -53,7 +53,7 @@ const Projects = () =>
         },
         {   id:3,
             title:"MyCuteDemoClock",
-            desc:"This project is the first one for me to create nay library package. This package is created solely using React Js and uploaded to npm. It has the functionality of showing the dynamic hours, minutes, seconds and the Date with day of the week in a digital form.I kept the design as minimal as I can. The clock is responsive and can be attached to any website by just isntalling it through npm. I have provided the github repo, there you can find the image and and instrutions, about how to use it.",
+            desc:"This project is the first one for me to create any library package. This package is created solely using React Js and uploaded to npm. It has the functionality of showing the dynamic hours, minutes, seconds and the Date with day of the week in a digital form.I kept the design as minimal as I can. The clock is responsive and can be attached to any website by just isntalling it through npm. I have provided the github repo, there you can find the image and and instrutions, about how to use it.",
             img_path:"democlock.png",
             github_link:"https://github.com/Logan2406/mycutedemoclock",
             technoligies:["React JS"]
@@ -61,7 +61,7 @@ const Projects = () =>
         {   id:4,
             title:"Local BookStore",
             desc:"This is a online Library Management App. This project has two parts, one is created using React Native for the users(front end) which is a mobile application. The other one is for the admin section created using React and Electron Js, this is a desktop application. The backend of the project is common and created using Express JS and database is Mysql. Here I have also applied the authentication and authorization for the users.",
-            img_path:"newcoffehouse.png",
+            img_path:"bookstore.png",
             github_link:"https://github.com/Logan2406/LocalBookStore",
             technoligies:["React Native","React JS","Electron JS","Express JS","MySQL"]
         },

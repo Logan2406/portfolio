@@ -7,7 +7,7 @@ const ToolsSkill = () =>
             name:"Postman",
             img:"postman-icon.png",
             prof:80,
-            date:"2018 - present"
+            date:"2020 - present"
         },
         {
             name:"Eclipse",
@@ -25,7 +25,7 @@ const ToolsSkill = () =>
             name:"Tableua",
             img:"tableau.png",
             prof:80,
-            date:"2018 - present"
+            date:"2021 - 2022"
         },
     ]
 
